@@ -1,5 +1,10 @@
 # CloudNexus
 
+## Live Demo / Deployment URL
+
+**Deployment URL:** Not verified yet. Add the confirmed public application URL here after checking the live service. The GitHub repository link is not a deployment URL.
+
+
 [![GitHub](https://img.shields.io/badge/GitHub-Repository-181717?logo=github)](https://github.com/saikishore2410/CloudNexus) [![Issues](https://img.shields.io/github/issues/saikishore2410/CloudNexus)](https://github.com/saikishore2410/CloudNexus/issues) [![Last Commit](https://img.shields.io/github/last-commit/saikishore2410/CloudNexus)](https://github.com/saikishore2410/CloudNexus/commits/main)
 
 > CloudNexus explores ideas for connecting cloud applications, infrastructure, and automation with an emphasis on clear architecture and maintainable operations.

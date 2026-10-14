@@ -1,55 +1,41 @@
 # CloudNexus
 
-## Live Demo / Deployment URL
+[![Source](https://img.shields.io/badge/Source-GitHub-181717?logo=github)](https://github.com/kandisaikishore/CloudNexus) [![Last Commit](https://img.shields.io/github/last-commit/kandisaikishore/CloudNexus)](https://github.com/kandisaikishore/CloudNexus/commits/main)
 
-**Deployment URL:** Not verified yet. Add the confirmed public application URL here after checking the live service. The GitHub repository link is not a deployment URL.
-
-
-[![GitHub](https://img.shields.io/badge/GitHub-Repository-181717?logo=github)](https://github.com/saikishore2410/CloudNexus) [![Issues](https://img.shields.io/github/issues/saikishore2410/CloudNexus)](https://github.com/saikishore2410/CloudNexus/issues) [![Last Commit](https://img.shields.io/github/last-commit/saikishore2410/CloudNexus)](https://github.com/saikishore2410/CloudNexus/commits/main)
-
-> CloudNexus explores ideas for connecting cloud applications, infrastructure, and automation with an emphasis on clear architecture and maintainable operations.
-
-## At a glance
-
-- **Purpose:** Use the feature and scope sections below to understand the problem this project addresses.
-- **Getting started:** Follow the repository-specific setup instructions and verify commands against the current source and package scripts.
-- **Configuration:** Keep API keys, database credentials, tokens, and private user data out of commits; configure secrets locally.
-- **Quality checks:** Run the available build, test, and lint commands before submitting changes.
-
-
-
-CloudNexus explores ideas for connecting cloud applications, infrastructure, and automation with an emphasis on clear architecture and maintainable operations.
+CloudNexus is a project workspace for exploring cloud application design, infrastructure, and automation. Its focus is on making cloud-oriented solutions easier to understand, configure, and operate.
 
 ## Project goals
 
-- Organize cloud-integration and automation concepts
-- Document components, configuration, and operational workflows
-- Encourage repeatable setup and infrastructure practices
+- Organize cloud architecture and integration concepts
+- Explore repeatable setup and operational workflows
+- Document configuration and component responsibilities
+- Establish a foundation for observability, access control, and reliable deployment practices
 
 ## Current implementation
 
-The technology stack, entry points, and deployable capabilities should be taken from the source files in this repository. This README intentionally avoids claiming specific cloud-provider integrations that are not documented here.
+Consult the source files and configuration in this repository for the actual framework, cloud-provider integrations, and executable entry points. This README avoids claiming provider-specific features that have not been verified. No live deployment URL has been confirmed in this documentation.
 
 ## Getting started
 
-1. Clone the repository.
-2. Review the project files and any configuration examples.
-3. Install the prerequisites stated by the implementation.
-4. Configure local environment variables without committing secrets.
-5. Follow the project's build and run scripts.
+```bash
+git clone https://github.com/kandisaikishore/CloudNexus.git
+cd CloudNexus
+```
+
+Review the project files to identify prerequisites and startup commands. Configure credentials through environment variables or a secret manager; never commit secrets to the repository.
 
 ## Engineering checklist
 
-- Document architecture and data flow
-- Keep credentials in a secret manager or environment variables
-- Add linting, automated tests, and CI checks
-- Provide deployment instructions and health checks
-- Document cost, access-control, and rollback considerations
+- Document architecture, components, and data flow
+- Add health checks, logs, and actionable error messages
+- Use least-privilege permissions for cloud resources
+- Add automated tests and CI checks
+- Document deployment, rollback, cost, and recovery procedures
 
-## Contributions
+## Contributing
 
-Issues and pull requests that improve documentation, reliability, security, and automation are welcome.
+Open issues with reproduction steps or submit focused changes with validation details.
 
 ## License
 
-No license is specified. Add a `LICENSE` file before permitting reuse.
+No license file is currently declared. Add a `LICENSE` file to define reuse terms.
